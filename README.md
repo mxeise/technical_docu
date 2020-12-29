@@ -1,18 +1,11 @@
-# Tailwind CSS Playground
+# freeCodeCamp Challenge
 
-A simple starter project for playing around with Tailwind in a proper PostCSS environment.
+Solution to the freeCodeCamp Challenge https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-survey-form
 
-To get started:
+Source: https://github.com/tailwindcss/playground.git tailwindcss-playground
 
-1. Clone the repository:
 
-   ```bash
-   git clone https://github.com/tailwindcss/playground.git tailwindcss-playground
-
-   cd tailwindcss-playground
-   ```
-
-2. Install the dependencies:
+Setup
 
    ```bash
    # Using npm
@@ -22,7 +15,7 @@ To get started:
    yarn
    ```
 
-3. Start the development server:
+Development Server
 
    ```bash
    # Using npm
@@ -33,12 +26,6 @@ To get started:
    ```
 
    Now you should be able to see the project running at localhost:8080.
-
-4. Open `public/index.html` in your editor and start experimenting!
-
-## Play with it on CodeSandbox
-
-A CodeSandbox version of this playground [is one click away](https://codesandbox.io/s/github/tailwindcss/playground/tree/master)!
 
 ## Building for production
 
