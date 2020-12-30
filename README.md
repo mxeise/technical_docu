@@ -1,6 +1,6 @@
 # freeCodeCamp Challenge
 
-Solution to the freeCodeCamp Challenge https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-survey-form
+Solution to the freeCodeCamp Challenge https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-product-landing-page
 
 Source: https://github.com/tailwindcss/playground.git tailwindcss-playground
 
