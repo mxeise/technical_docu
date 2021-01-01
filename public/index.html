@@ -2,10 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
     <link rel="stylesheet" href="/build/tailwind.css" />
@@ -13,29 +10,55 @@
   </head>
 
   <body class="antialiased">
-    <div class="flex-1 flex flex-col">
-      <nav class="flex px-4 justify-between bg-white h-16 border-b-2">
-        <div class="flex items-center">
-          <div class="flex items-center h-10 w-10">
-            <img
-              src="http://acmelogos.com/images/logo-5.svg"
-              class="h-full w-full mx-auto"
-            />
+    <header id="header" class="relative bg-white">
+      <nav id="nav-bar" class="max-w-7xl mx-auto px-4 sm:px-6">
+        <div class="flex justify-between items-center border-b-2 border-gray-100 py-6 md:justify-start md:space-x-10">
+          <div class="flex justify-start lg:w-0 md:flex-auto">
+            <div class="flex items-center justify-center">
+              <div id="header-img" class="rounded-full h-10 w-10 bg-gradient-to-tr from-green-300 to-blue-600 hover:from-pink-500 hover:to-yellow-500"></div>
+            </div>
           </div>
-
-          <div class="flex items-center border-b-2">
-            <p class="pl-8 lg:pl0 font-medium text-gray-700">
-              The Product Landingpage
-            </p>
+          <div class="flex flex-auto justify-center">
+            <div class="nav-link flex px-6 text-gray-700">
+              <a href="#features">Features</a>
+            </div>
+            <div class="nav-link flex px-6 text-gray-700">
+              <a href="#pricing">Pricing</a>
+            </div>
+            <div class="nav-link flex px-6 text-gray-700">
+              <a href="#faqs">FAQs</a>
+            </div>
           </div>
-
-          <div class="flex items-center"></div>
         </div>
       </nav>
+    </header>
+    <div class="w-full h-auto bg-gradient-to-r bg-grad-l to bg-grad-r">
+      <div class="flex flex-col justify-center">
+        <div class="flex justify-center pt-24">
+          <h1 class="font-extrabold text-center text-gray-800 text-5xl">
+            <span class="tracking-wide">The Product Landingpage</span>
+          </h1>
+        </div>
+        <div class="flex justify-center pt-5 pb-24">
+          <h2 class="font-regular text-center text-gray-800 text-3xl">
+            <span class="text-lg tracking-wide">Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo.</span>
+          </h2>
+        </div>
+      </div>
     </div>
-
-    <div class="">
-      <div></div>
+    <div class="flex flex-col content-center text-center justify-center mt-20">
+      <div class="font-bold text-gray-900 text-3xl">
+        <span class="tracking-wide">Features</span>
+      </div>
+      <div class="font-base text-gray-800 antialiased mt-5">
+        <span class="tracking-wide">Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo.</span>
+      </div>
+      <!-- I need help here -->
+      <div class="max-w-3/4 py-10">
+        <div class="embed-responsive aspect-ratio-21/9">
+          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/RvRhUHTV_8k"></iframe>
+        </div>
+      </div>
     </div>
   </body>
   <!-- FCC Test Suite-->
