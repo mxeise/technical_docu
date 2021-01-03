@@ -1,31 +1,30 @@
 # freeCodeCamp Challenge
 
-Solution to the freeCodeCamp Challenge https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-product-landing-page
+Solution to the freeCodeCamp Challenge hhttps://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-technical-documentation-page
 
 Source: https://github.com/tailwindcss/playground.git tailwindcss-playground
 
-
 Setup
 
-   ```bash
-   # Using npm
-   npm install
+```bash
+# Using npm
+npm install
 
-   # Using Yarn
-   yarn
-   ```
+# Using Yarn
+yarn
+```
 
 Development Server
 
-   ```bash
-   # Using npm
-   npm run serve
+```bash
+# Using npm
+npm run serve
 
-   # Using Yarn
-   yarn serve
-   ```
+# Using Yarn
+yarn serve
+```
 
-   Now you should be able to see the project running at localhost:8080.
+Now you should be able to see the project running at localhost:8080.
 
 ## Building for production
 

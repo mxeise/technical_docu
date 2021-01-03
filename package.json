@@ -16,7 +16,8 @@
   },
   "dependencies": {
     "autoprefixer": "^9.8.6",
-    "tailwindcss": "^1.7.2"
+    "tailwindcss": "^1.7.2",
+    "vue": "^2.6.12"
   },
   "devDependencies": {
     "@tailwindcss/custom-forms": "^0.2.1",
