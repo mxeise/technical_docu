@@ -27,6 +27,10 @@ module.exports = {
     "4/3": [4, 3],
     "21/9": [21, 9]
     },
+  inset: {
+    '1/2': '50%',
+    '1/8': '12.5%'
+  },
     customForms: (theme) => ({
       default: {
         input: {
@@ -63,9 +67,14 @@ module.exports = {
     }),
     extend: {
       colors: {
-        'grad-l': '#ffafbd',
-        'grad-r': '#ffc3a0',
-      }
+        'velvet-left': '#ffafbd',
+        'velvet-right': '#ffc3a0',
+        'dusk-left': '#2c3e50',
+        'dusk-right': '#fd746c',
+      },
+      backgroundImage: theme => ({
+        'topo-pattern': "url('/public/topo.svg')",
+      })
     },
   },
   variants: {
