@@ -27,6 +27,26 @@ Vue.component("code-block", {
     `,
 });
 
+Vue.component("nav-bar", {
+  template: `
+      <nav id="nav-bar" class="max-w-7xl mx-auto px-4 sm:px-6">
+        <div class="flex justify-between items-center border-b-2 border-gray-100 py-6 md:justify-start md:space-x-10">
+          <div class="flex justify-start lg:w-0 md:flex-">
+            <div class="flex items-center justify-center">
+              <div src="" id="header-img" class="rounded-full h-10 w-10 bg-gradient-to-tr from-green-300 to-blue-600 hover:from-pink-500 hover:to-yellow-500"></div>
+            </div>
+          </div>
+          <div class="flex flex-auto justify-left">
+            <div class="flex pl-12 text-gray-900 text-xl font-bold">
+              <a href="#">Technical Documentation</a>
+            </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+      `,
+});
+
 Vue.component("sample-text", {
   template: `
       Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
@@ -35,4 +55,8 @@ Vue.component("sample-text", {
 
 var app = new Vue({
   el: "#app",
+});
+
+var app2 = new Vue({
+  el: "#nav",
 });

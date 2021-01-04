@@ -2,31 +2,33 @@
 @tailwind components;
 @tailwind utilities;
 
-.code_punkt {
-  color: rgb(186, 230, 253);
-  @apply font-mono text-sm font-light tracking-wide text-left text-opacity-50 antialiased;
-}
+@layer components {
+  .code_punkt {
+    color: rgb(186, 230, 253);
+    @apply font-mono text-sm font-light tracking-wide text-left text-opacity-50 antialiased;
+  }
 
-.code_tag {
-  color: rgb(232, 121, 249);
-  @apply font-mono text-sm font-light tracking-wide text-left text-opacity-50 antialiased;
-}
+  .code_tag {
+    color: rgb(232, 121, 249);
+    @apply font-mono text-sm font-light tracking-wide text-left text-opacity-50 antialiased;
+  }
 
-.code_classname {
-  color: rgb(34, 211, 238);
-  @apply font-mono text-sm font-light tracking-wide text-left text-opacity-50 antialiased;
-}
+  .code_classname {
+    color: rgb(34, 211, 238);
+    @apply font-mono text-sm font-light tracking-wide text-left text-opacity-50 antialiased;
+  }
 
-.code_class {
-  color: rgb(190, 242, 100);
-  @apply font-mono text-sm font-light tracking-wide text-left text-opacity-50 antialiased;
-}
+  .code_class {
+    color: rgb(190, 242, 100);
+    @apply font-mono text-sm font-light tracking-wide text-left text-opacity-50 antialiased;
+  }
 
-.code_class_bg {
-  padding: 1px 3px 1px 3px;
-  @apply bg-green-500 rounded-md bg-opacity-25;
-}
+  .code_class_bg {
+    padding: 1px 3px 1px 3px;
+    @apply bg-green-500 rounded-md bg-opacity-25;
+  }
 
-.code_inside {
-  @apply font-mono text-sm font-light tracking-wide text-left text-white antialiased;
+  .code_inside {
+    @apply font-mono text-sm font-light tracking-wide text-left text-white antialiased;
+  }
 }

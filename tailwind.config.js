@@ -66,6 +66,12 @@ module.exports = {
       },
     }),
     extend: {
+      spacing: {
+        '60': '15rem',
+        '64': '16rem',
+        '72': '18rem',
+        '80': '20rem',
+      },
       colors: {
         'velvet-left': '#ffafbd',
         'velvet-right': '#ffc3a0',
