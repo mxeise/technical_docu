@@ -1,8 +1,8 @@
 Vue.component("code-block", {
   template: `
-        <div class="bg-black bg-opacity-75 p-6">'
+        <div class="bg-black bg-opacity-75 p-6 rounded-xl">
           <code class="language-html">
-            <div class="flex">
+            <div class="flex flex-grow">
               <span class="code_punkt"><</span>
               <span class="code_tag">p&nbsp;</span>
               <span class="code_classname">class</span>
@@ -14,7 +14,6 @@ Vue.component("code-block", {
               </span>
               <span class="code_punkt">"</span>
               <span class="code_punkt">></span>
-              
               <span class="code_punkt"><</span>
               <span class="code_punkt">/</span>
               <span class="code_tag">p</span>
@@ -29,7 +28,7 @@ Vue.component("code-block", {
 
 Vue.component("nav-bar", {
   template: `
-      <nav id="nav-bar" class="max-w-7xl mx-auto px-4 sm:px-6">
+      <nav id="nav" class="max-w-7xl mx-auto px-4 sm:px-6">
         <div class="flex justify-between items-center border-b-2 border-gray-100 py-6 md:justify-start md:space-x-10">
           <div class="flex justify-start lg:w-0 md:flex-">
             <div class="flex items-center justify-center">
@@ -38,7 +37,9 @@ Vue.component("nav-bar", {
           </div>
           <div class="flex flex-auto justify-left">
             <div class="flex pl-12 text-gray-900 text-xl font-bold">
-              <a href="#">Technical Documentation</a>
+            <header>
+              <a href="#" class="nav-link">Technical Documentation</a>
+            </header>              
             </div>
             </div>
           </div>
